@@ -66,7 +66,7 @@ object LocalizeSDK {
             LocalizeConfig(
                 apiKey = apiKey,
                 platform = platform,
-                baseUrl = baseUrl ?: "https://localize-api.adres.ae",
+                baseUrl = baseUrl ?: "https://api.glotra.app",
                 onKeysUpdated = onKeysUpdated,
                 fallbackLocale = fallbackLocale,
                 timeoutSeconds = timeoutSeconds,
