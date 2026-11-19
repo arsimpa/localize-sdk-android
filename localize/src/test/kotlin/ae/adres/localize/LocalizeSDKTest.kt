@@ -40,7 +40,7 @@ class LocalizeSDKTest {
     @Test
     fun defaultBaseUrlIsProduction() {
         val config = LocalizeConfig(apiKey = "test")
-        assertEquals("https://localize-api.adres.ae", config.normalizedBaseUrl)
+        assertEquals("https://api.glotra.app", config.normalizedBaseUrl)
     }
 
     @Test

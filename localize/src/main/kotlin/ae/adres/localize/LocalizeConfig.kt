@@ -6,7 +6,7 @@ package ae.adres.localize
 data class LocalizeConfig(
     val apiKey: String,
     val platform: String = "android",
-    val baseUrl: String = "https://localize-api.adres.ae",
+    val baseUrl: String = "https://api.glotra.app",
     val onKeysUpdated: (() -> Unit)? = null,
     val fallbackLocale: String? = null,
     val timeoutSeconds: Int = 10,

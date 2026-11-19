@@ -10,7 +10,7 @@ This is the Kotlin SDK for Android. It falls back to your app's `strings.xml` an
 
 Also available for [iOS](https://github.com/arsalankhan-glitch/localize-sdk-ios) · [Flutter](https://github.com/arsalankhan-glitch/localize-sdk-flutter) · [React Native](https://github.com/arsalankhan-glitch/localize-sdk-react-native).
 
-To get started, sign up [here](https://localiq.yaxbi.com/signup).
+To get started, sign up [here](https://glotra.app/signup).
 
 ## 📱 Example app
 
@@ -107,7 +107,7 @@ LocalizeSDK.refresh()
 |-----------|------|---------|-------------|
 | `apiKey` | `String` | — | Project API key (required) |
 | `fallbackLocale` | `String?` | `null` | Locale to use when key is missing |
-| `baseUrl` | `String?` | `"https://localize-api.adres.ae"` | API host |
+| `baseUrl` | `String?` | `"https://api.glotra.app"` | API host |
 | `stringsFileName` | `String` | `"strings"` | Name of the strings XML resource file |
 | `timeoutSeconds` | `Int` | `10` | Network request timeout |
 | `enableLogging` | `Boolean` | `true` | Print debug logs |
