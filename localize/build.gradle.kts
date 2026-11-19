@@ -5,8 +5,8 @@ plugins {
 }
 
 // JitPack sets VERSION to the git tag being built.
-group = "com.github.arsalankhan-glitch"
-version = System.getenv("VERSION") ?: "0.1.0"
+group = "com.github.arsimpa"
+version = System.getenv("VERSION") ?: "0.1.1"
 
 android {
     namespace = "ae.adres.localize"
@@ -46,7 +46,7 @@ android {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.github.arsalankhan-glitch"
+            groupId = "com.github.arsimpa"
             artifactId = "localize-sdk-android"
             version = project.version.toString()
             afterEvaluate {

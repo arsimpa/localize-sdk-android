@@ -1,14 +1,14 @@
-# Localiq Android SDK
+# Glotra Android SDK
 
-[![JitPack](https://jitpack.io/v/arsalankhan-glitch/localize-sdk-android.svg)](https://jitpack.io/#arsalankhan-glitch/localize-sdk-android) [![License](https://img.shields.io/github/license/arsalankhan-glitch/localize-sdk-android)](LICENSE) ![API 26+](https://img.shields.io/badge/API-26%2B-brightgreen.svg) ![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7F52FF.svg)
+[![JitPack](https://jitpack.io/v/arsimpa/localize-sdk-android.svg)](https://jitpack.io/#arsimpa/localize-sdk-android) [![License](https://img.shields.io/github/license/arsimpa/localize-sdk-android)](LICENSE) ![API 26+](https://img.shields.io/badge/API-26%2B-brightgreen.svg) ![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7F52FF.svg)
 
 ## 👋 Introduction
 
-Localiq lets your team manage your app's text and translations in one place and update them without shipping a new release. The SDK downloads the latest translations at runtime, caches them on the device, and falls back to the strings bundled in your app when it's offline.
+Glotra lets your team manage your app's text and translations in one place and update them without shipping a new release. The SDK downloads the latest translations at runtime, caches them on the device, and falls back to the strings bundled in your app when it's offline.
 
 This is the Kotlin SDK for Android. It falls back to your app's `strings.xml` and can also serve native `getString` calls.
 
-Also available for [iOS](https://github.com/arsalankhan-glitch/localize-sdk-ios) · [Flutter](https://github.com/arsalankhan-glitch/localize-sdk-flutter) · [React Native](https://github.com/arsalankhan-glitch/localize-sdk-react-native).
+Also available for [iOS](https://github.com/arsimpa/localize-sdk-ios) · [Flutter](https://github.com/arsimpa/localize-sdk-flutter) · [React Native](https://github.com/arsimpa/localize-sdk-react-native).
 
 To get started, sign up [here](https://glotra.app/signup).
 
@@ -23,7 +23,7 @@ See [`example/`](example/). Run it with `./gradlew :example:installDebug -PLOCAL
 
 ## 🎉 Installation
 
-The SDK is published through [JitPack](https://jitpack.io/#arsalankhan-glitch/localize-sdk-android). No account or token is needed.
+The SDK is published through [JitPack](https://jitpack.io/#arsimpa/localize-sdk-android). No account or token is needed.
 
 Add the JitPack repository in `settings.gradle.kts`:
 
@@ -41,7 +41,7 @@ Add the dependency in `app/build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.arsalankhan-glitch:localize-sdk-android:0.1.0")
+    implementation("com.github.arsimpa:localize-sdk-android:0.1.1")
 }
 ```
 
